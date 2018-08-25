@@ -1,4 +1,5 @@
-import os,zipfile
+import os
+import zipfile
 os.chdir(os.getcwd()+"\\AulaPython\\Arquivos\\Documentos")
 zip = zipfile.ZipFile('varios.zip')
 print(zip.namelist())
